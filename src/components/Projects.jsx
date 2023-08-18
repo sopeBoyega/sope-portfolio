@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import { Link } from "react-router-dom";
 
-import budie from "../assets/budie.png";
+import budie from "../assets/budie-app.png";
 import movo from "../assets/movo.png";
 
 import ultra from "../assets/ultra.png";
@@ -27,6 +27,8 @@ export default function Projects() {
           tech="React, TailwindCSS"
           title="02. BUDIE"
           description="This is a web and mobile application that allows users track their expenses and make budgets"
+          link="https://budie-app.vercel.app/"
+          github="https://github.com/kerenIy/budie-app"
         />
 
         <ProjectItem
