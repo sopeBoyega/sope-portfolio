@@ -163,9 +163,9 @@ body {
 .contact img,
 .project-links img {
   display: inline;
-  margin-right: 5px;
-  width: 20px;
-  height: 20px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (min-width: 576px) {
@@ -178,6 +178,7 @@ body {
 
   #links {
     display: flex;
+    margin-right: 50px;
   }
 
   .desk-link {
@@ -201,8 +202,9 @@ body {
   }
 
   .menu-btn {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
   }
 
   .section-title {
