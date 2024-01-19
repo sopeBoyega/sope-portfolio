@@ -40,7 +40,7 @@ export default function NavBar() {
         </NavLink>
 
         <br />
-        <button className="desk-link">Contact &rarr;</button>
+        <button className="desk-link">Contact</button>
       </div>
     </div>
   );
