@@ -3,8 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 body {
-  background-color: #2b2730;
-  color: #ffffff;
+  background-color: #fff;
 }
 .box-margin {
   margin: 30px;
@@ -23,6 +22,11 @@ body {
   align-items: center;
 }
 
+.bg-black {
+  background-color: black;
+  padding: 5px;
+}
+
 .mobile-nav-view p {
   font-size: 1.5rem;
   font-weight: 600;
@@ -38,6 +42,13 @@ body {
   justify-content: center;
   font-size: 1.6rem;
   margin-top: 20px;
+}
+
+.projects-spread {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .hide {
@@ -65,7 +76,7 @@ body {
 }
 
 .about-text p {
-  color: gray;
+  color: black;
   font-size: 0.85rem;
   margin-bottom: 15px;
 }
@@ -95,16 +106,21 @@ body {
 
 .technologies p {
   font-size: 0.85rem;
-  color: gray;
+  color: black;
 }
 
 .card {
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: rgba(128, 128, 128, 0.174);
+  padding: 2.5%;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
 }
 .project-img {
-  width: 290px;
-  height: 165px;
+  width: 100%;
+  height: 200px;
 }
 
 .card h3 {
@@ -112,12 +128,12 @@ body {
   margin-bottom: 7px;
   margin-top: 4px;
   font-weight: 600;
-  color: gray;
+  color: black;
 }
 
 .card p {
   font-size: 0.8rem;
-  color: gray;
+  color: black;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -146,17 +162,17 @@ body {
   opacity: 0.6;
 }
 .experience h3 {
-  color: #fff;
+  color: black;
   font-size: 0.7rem;
   margin-bottom: 10px;
 }
 .experience p {
-  color: gray;
+  color: black;
   font-size: 0.83rem;
 }
 
 .contact p {
-  color: gray;
+  color: black;
   font-size: 0.85rem;
 }
 .contact img,
@@ -177,14 +193,18 @@ body {
 
   #links {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 50px;
+    text-transform: capitalize;
   }
 
   .desk-link {
-    margin-right: 25px;
+    margin-right: 75px;
     font-size: 1.15rem;
-    color: gray;
-    text-transform: lowercase;
+    color: black;
+    text-transform: capitalize;
+    display: none;
   }
 
   .job-intro {
@@ -195,15 +215,29 @@ body {
   }
 
   .about-text p {
-    color: gray;
+    color: black;
     font-size: 1.15rem;
     margin-bottom: 15px;
+  }
+
+  .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.174);
+    padding: 2.5%;
+    border-radius: 10px;
+    height: 100%;
+    width: 85%;
   }
 
   .menu-btn {
     width: 35px;
     height: 35px;
     margin-right: 10px;
+  }
+
+  .projects-spread {
+    margin-bottom: 30px;
   }
 
   .section-title {
@@ -222,7 +256,7 @@ body {
 
   .technologies p {
     font-size: 1.15rem;
-    color: gray;
+    color: black;
   }
 
   .experience h2 {
@@ -238,7 +272,7 @@ body {
     margin-bottom: 10px;
   }
   .experience p {
-    color: gray;
+    color: black;
     font-size: 1.15rem;
     margin-bottom: 10px;
   }

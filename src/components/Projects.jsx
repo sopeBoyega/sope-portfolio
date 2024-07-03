@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 import budie from "../assets/budie-app.png";
 import movo from "../assets/movo.png";
 
+import veskee from "../assets/veskee.png";
+
 import ultra from "../assets/ultra.png";
 
-import kiasup from "../assets/kiasup.jpg"
+import kiasup from "../assets/kiasup.jpg";
+import jikoo from "../assets/jikoo.png";
+import ridebuddy from "../assets/ridebuddy.png";
 
 import linkImg from "../assets/link.svg";
 import github from "../assets/github.svg";
@@ -19,27 +23,31 @@ export default function Projects() {
           img={kiasup}
           tech="React, TailwindCSS"
           title="01. Kiasup"
-          description="Kaisup is a dynamic platform dedicated to connecting artisans, service providers, freelancers, and small-scale workers with clients seeking their expertise."
+          description="Kiasup is a dynamic platform dedicated to connecting artisans, service providers, freelancers, and small-scale workers with clients seeking their expertise."
           link="https://www.kiasup.com/"
-          github="https://www.kiasup.com/"
         />
 
         <ProjectItem
-          img={movo}
+          img={veskee}
           tech="HTML, CSS, JS"
-          title="01. MOVO"
-          description="Movo is an application that allows users get recommendations for movies based on whatever genres they choose"
-          link="https://movo-app-kereniy.vercel.app/"
-          github="https://github.com/kerenIy/movo-project"
+          title="02. VESKEE"
+          description="Veskee is a financial application that is revolutionising the economic framework of large establishments through superior software solutions"
+          link="https://veskee.com/"
         />
 
         <ProjectItem
-          img={budie}
-          tech="React, TailwindCSS"
-          title="02. BUDIE"
+          img={jikoo}
+          tech="REACT"
+          title="03. JIKOO"
+          description="Jikoo is a food delivery application that allows users to order food, and gives food vendors an opportunity to sell their food on a larger marketplace."
+          link="https://jikoo.ng/"
+        />
+        <ProjectItem
+          img={ridebuddy}
+          tech="REACT"
+          title="04. RIDEBUDDY"
           description="This is a web and mobile application that allows users track their expenses and make budgets"
-          link="https://budie-app.vercel.app/"
-          github="https://github.com/kerenIy/budie-app"
+          link="https://ridebuddyinc.com/"
         />
       </div>
     </div>

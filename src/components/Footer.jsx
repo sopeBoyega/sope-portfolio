@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className="contact">
         <p>
-          <img src={email} alt="" />
+          <img src={email} alt="" className="bg-black" />
           email: kerp4real@gmail
         </p>
       </div>
