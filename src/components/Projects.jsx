@@ -1,6 +1,5 @@
 import ProjectItem from "./ProjectItem";
 import { Link } from "react-router-dom";
-
 import budie from "../assets/budie-app.png";
 import movo from "../assets/movo.png";
 
@@ -12,6 +11,8 @@ import kiasup from "../assets/kiasup.jpg";
 import jikoo from "../assets/jikoo.png";
 import ridebuddy from "../assets/ridebuddy.png";
 
+import facier from "../assets/facier.png";
+
 import linkImg from "../assets/link.svg";
 import github from "../assets/github.svg";
 
@@ -19,6 +20,28 @@ export default function Projects() {
   return (
     <div className="font1">
       <div className="projects">
+        <div className="projects-spread">
+          <div className="card">
+            <div className="card-text">
+              <h3>01. FACIER</h3>
+              <img src={facier} alt="" className="project-img" />
+              <p>
+                Facier is a facial-recognition based attendance system for
+                classrooms. It allows lecturers to capture and track their
+                student attendance records using facial recognition.
+              </p>
+
+              <div className="project-links ">
+                <Link to="https://github.com/kerenIy/fras_system">
+                  <button>
+                    <img src={github} alt="" className="menu-btn" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <ProjectItem
           img={kiasup}
           tech="React, TailwindCSS"

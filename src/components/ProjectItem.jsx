@@ -11,7 +11,7 @@ export default function ProjectItem(props) {
           <img src={props.img} alt="" className="project-img" />
           <p>{props.description}</p>
 
-          <div className="project-links">
+          <div className="project-links ">
             <Link to={props.link} className="bg-link-black">
               <button>
                 <img src={linkImg} alt="" className="menu-btn" />
@@ -19,10 +19,10 @@ export default function ProjectItem(props) {
             </Link>
 
             {/* <Link to={props.github}>
-            <button>
-              <img src={github} alt="" className="menu-btn" />
-            </button>
-          </Link> */}
+              <button>
+                <img src={github} alt="" className="menu-btn" />
+              </button>
+            </Link> */}
           </div>
         </div>
       </div>
