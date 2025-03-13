@@ -36,13 +36,13 @@ export default function About() {
 
         <div className="about-text">
           <h3 className="job-intro">
-            <span>frontend engineer</span>
+            <span>Aspiring Fullstack  engineer</span>
             <span className="span"> & cloud enthusiast.</span>
           </h3>
           <SectionTitle title="ABOUT ME" />
           <p>
             Hey there <img src={hand} alt="" className="about-icon" />, I'm
-            Ibitein Iyalla. I'm a Front-end Engineer passionate about finding
+            Mosope Adegboyega. I'm an Aspiring FullStack Engineer passionate about finding
             the intersection between technology & design.
           </p>
           <p>
@@ -55,19 +55,15 @@ export default function About() {
           </p>
 
           <div className="icons">
-            <Link to="https://github.com/kerenIy">
+            <Link to="https://github.com/sopeBoyega">
               <button>
                 <img src={github} alt="" className="menu-btn" />
               </button>
             </Link>
 
-            <Link to="https://twitter.com/teinsapanda">
-              <button>
-                <img src={twitter} alt="" className="menu-btn" />
-              </button>
-            </Link>
+      
 
-            <Link to="https://www.linkedin.com/in/ibitein-iyalla-101449233/">
+            <Link to="https://www.linkedin.com/in/mosopefoluwa-adegboyega-16812a26a/">
               <button>
                 <img src={linkedin} alt="" className="menu-btn" />
               </button>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import linkImg from "../assets/link.svg";
 import github from "../assets/github.svg";
 
-export default function ProjectItem(props) {
+export default function   ProjectItem(props) {
   return (
     <div className="projects-spread">
       <div className="card">

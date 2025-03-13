@@ -21,7 +21,7 @@ export default function NavBar() {
         </button>
 
         <p className="font-medium">
-          te<span>in.</span>
+          so<span>pe.</span>
         </p>
       </div>
 

@@ -69,8 +69,8 @@ export default function Skills() {
         <SectionTitle title="work experience" />
         <Experience
           role="Jnr Front End Engineer"
-          company=" /Dexter Digital Technologies"
-          timeline="Jan 2023 - Jun 2023"
+          company=" /Kiasup"
+          timeline="Jun 2024 - Nov 2024"
           description="As a junior front-end developer, 
          I played a crucial role in building and designing
          web pages and applications. Utilizing my skills in HTML, 
